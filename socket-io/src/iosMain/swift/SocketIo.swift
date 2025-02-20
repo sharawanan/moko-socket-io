@@ -146,7 +146,7 @@ public class SocketIo: NSObject {
     
     @objc
     public func emit(event: String, string: String) {
-        socket.emit(event, with: [string], completion: <#(() -> ())?#>)
+        socket.emit(event, with: [string], completion: {})
     }
 }
 
