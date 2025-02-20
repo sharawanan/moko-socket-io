@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
     spec.dependency 'Socket.IO-Client-Swift', '~> 16.1.1'
 
-    spec.ios.deployment_target  = '15.0'
+    spec.ios.deployment_target  = '15.4'
     spec.swift_version = '5.0'
 
     spec.pod_target_xcconfig = {
